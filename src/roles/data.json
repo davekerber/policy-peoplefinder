@@ -1,0 +1,20 @@
+{
+  "roles": {
+    "peoplefinder-admin": {
+      "description": "admins",
+      "perms": {
+        "spreetail.peoplefinder.users.Profile.Update": {
+          "allowed": true
+        }
+      }
+    },
+    "peoplefinder-user": {
+      "description": "users",
+      "perms": {
+        "spreetail.peoplefinder.users.Profile.Update": {
+          "allowed": false
+        }
+      }
+    }
+  }
+}

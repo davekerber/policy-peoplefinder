@@ -1,0 +1,7 @@
+{
+  "perms": {
+    "spreetail.peoplefinder.users.Profile.Update": {
+      "description": "some description here"
+    }
+  }
+}

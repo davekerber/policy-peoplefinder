@@ -12,3 +12,12 @@ allowed {
 allowed {
     input.user.id == input.resource.id
 }
+
+# global role
+# allowed {
+#   u = input.user
+#   not u.enabled != true
+
+#   some i
+#   data.roles.roles[u.attributes.roles[i]].perms["aserto.authorizer.directory.Directory.CreateTenant"].allowed
+# }
